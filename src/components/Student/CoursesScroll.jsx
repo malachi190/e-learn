@@ -138,7 +138,7 @@ const CoursesScroll = () => {
             </div>
             <div className="mt-4 p-4 text-center align-middle">
               <button className="bg-black px-4 py-2 text-sm text-center text-white border border-white ">
-                See More
+                See More 
               </button>
             </div>
           </div>
