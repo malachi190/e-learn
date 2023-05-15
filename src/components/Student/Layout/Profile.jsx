@@ -37,7 +37,7 @@ const Profile = () => {
       {/* Profile dropdown */}
 
       <div
-        className={`absolute top-[4.5em] right-5 md:w-auto bg-slate-50 shadow-md z-50 max-h-max rounded-sm md:p-10 sm:p-4 ${
+        className={`absolute top-[4.5em] right-5 md:w-auto bg-slate-50 shadow-md z-50 max-h-max rounded-sm md:p-10 sm:p-6 ${
           show ? "block" : "hidden"
         }`}
         style={{
