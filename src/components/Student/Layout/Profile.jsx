@@ -63,7 +63,7 @@ const Profile = () => {
 
         <hr />
 
-        {/* <div className="mt-3 p-1 block">
+        <div className="mt-3 p-1 md:hidden block">
           <div className="flex flex-1 justify-center items-center align-baseline mx-auto gap-0 ">
             <button className="text-sm border-0 bg-black text-white p-2">
               <i className="fas fa-search"></i>
@@ -74,8 +74,8 @@ const Profile = () => {
               className="bg-white p-2 focus:outline-none"
             />
           </div>
-        </div> */}
-        {/* <hr /> */}
+        </div> 
+         <hr /> 
 
         <div className="mt-3">
           <ul className="list-none leading-10">
