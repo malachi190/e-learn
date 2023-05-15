@@ -8,7 +8,8 @@ const Hero = () => {
         <p className='ml-10' style={{fontSize: '13px'}}>Student name</p>
       </div>
       <div className='mx-5'>
-         <button className='bg-transparent md:px-5 md:py-3 p-4  text-[15px] text-center text-white border border-orange-500'>Explore</button>
+          <p className='font-bold text-orange-500 text-[20px]'>Account</p>
+         <p className='bg-transparent md:px-5 md:py-3 p-4  text-[15px] text-center text-white border border-orange-500'>$5000</p>
       </div>
     </div>
   )

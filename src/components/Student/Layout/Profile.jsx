@@ -1,4 +1,4 @@
-import React, { useState, useRef, useCallback, useEffect } from "react";
+import React, { useState} from "react";
 import profile from "../../../assets/person_1.jpg";
 import { Link } from "react-router-dom";
 
@@ -30,14 +30,14 @@ const Profile = () => {
         <img
           src={profile}
           alt=""
-          className="rounded-full md:w-[80px] md:h-[30px] w-[50px] h-[50px] "
+          className="rounded-full md:w-[100px] md:h-[50px] w-[50px] h-[50px] "
         />
       </div>
 
       {/* Profile dropdown */}
 
       <div
-        className={`absolute top-[4.5em] md:w-auto bg-slate-50 shadow-md z-50 max-h-max rounded-sm md:p-10 sm:p-4 ${
+        className={`absolute top-[4.5em] right-5 md:w-auto bg-slate-50 shadow-md z-50 max-h-max rounded-sm md:p-10 sm:p-4 ${
           show ? "block" : "hidden"
         }`}
         style={{
@@ -63,7 +63,7 @@ const Profile = () => {
 
         <hr />
 
-        <div className="mt-3 p-1 md:hidden block">
+        <div className="mt-3 p-1 block">
           <div className="flex flex-1 justify-center items-center align-baseline mx-auto gap-0 ">
             <button className="text-sm border-0 bg-black text-white p-2">
               <i className="fas fa-search"></i>
@@ -79,22 +79,22 @@ const Profile = () => {
 
         <div className="mt-3">
           <ul className="list-none leading-10">
-            <li>
+            <li className="hover:bg-slate-200 hover:px-2 transition">
               <Link to={"/"} className="text-[12px]">
                 Live Courses
               </Link>
             </li>
-            <li>
+            <li className="hover:bg-slate-200 hover:px-2 transition">
               <Link to={"/"} className="text-[12px]">
                 Timetable
               </Link>
             </li>
-            <li>
+            <li className="hover:bg-slate-200 hover:px-2 transition">
               <Link to={"/"} className="text-[12px]">
                 Class work
               </Link>
             </li>
-            <li>
+            <li className="hover:bg-slate-200 hover:px-2 transition">
               <Link to={"/"} className="text-[12px]">
                 Notes
               </Link>
@@ -106,17 +106,17 @@ const Profile = () => {
 
         <div className="mt-3">
           <ul className="list-none leading-10">
-            <li>
+            <li className="hover:bg-slate-200 hover:px-2 transition">
               <Link to={"/"} className="text-[12px]">
                 Review
               </Link>
             </li>
-            <li>
+            <li className="hover:bg-slate-200 hover:px-2 transition">
               <Link to={"/"} className="text-[12px]">
                 Payments
               </Link>
             </li>
-            <li>
+            <li className="hover:bg-slate-200 hover:px-2 transition">
               <Link to={"/"} className="text-[12px]">
                 Ask a question
               </Link>
@@ -128,7 +128,7 @@ const Profile = () => {
 
         <div className="mt-3">
           <ul className="list-none leading-10">
-            <li>
+            <li className="hover:bg-slate-200 hover:px-2 transition">
               <Link to={"/"} className="text-[12px]">
                 Logout
               </Link>
