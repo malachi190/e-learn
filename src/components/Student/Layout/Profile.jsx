@@ -9,17 +9,17 @@ const Profile = () => {
     setShow((prev) => !prev);
   };
 
-  const ref = useRef()
+  // const ref = useRef()
 
-  const clickMenu = useCallback((e) => {
-    if(ref.current && !ref.current.contains(e.target)){
-        setShow(false)
-    }
-  }, [show])
+  // const clickMenu = useCallback((e) => {
+  //   if(ref.current && !ref.current.contains(e.target)){
+  //       setShow(false)
+  //   }
+  // }, [show])
 
-  useEffect(() => {
-    document.addEventListener('mousedown', clickMenu)
-  }, [clickMenu])
+  // useEffect(() => {
+  //   document.addEventListener('click', clickMenu)
+  // }, [clickMenu])
 
   return (
     <>
@@ -30,16 +30,14 @@ const Profile = () => {
         <img
           src={profile}
           alt=""
-          className="rounded-full"
-          width={40}
-          height={40}
+          className="rounded-full md:w-[80px] md:h-[30px] w-[50px] h-[50px] "
         />
       </div>
 
       {/* Profile dropdown */}
 
       <div
-        className={`absolute top-[4.5em] w-auto bg-slate-50 shadow-md z-50 max-h-max rounded-sm p-10 ${
+        className={`absolute top-[4.5em] md:w-auto bg-slate-50 shadow-md z-50 max-h-max rounded-sm md:p-10 sm:p-4 ${
           show ? "block" : "hidden"
         }`}
         style={{
@@ -48,15 +46,14 @@ const Profile = () => {
           transitionDuration: "2.5s",
           transitionProperty: 'all'
         }}
-       ref={ref}
       >
         <div className="flex flex-1 justify-center align-baseline gap-5 items-center mb-4 p-2">
           <img
             src={profile}
             alt=""
             className="rounded-full relative"
-            width={50}
-            height={50}
+            width={60}
+            height={60}
           />
           <Link className="flex flex-col leading-6 items-center" to={"/"}>
             <span className="text-[15px] font-medium">Student Name</span>

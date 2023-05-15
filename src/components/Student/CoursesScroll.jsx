@@ -43,7 +43,7 @@ const CoursesScroll = () => {
         responsiveClass={true} responsive={responsive} nav>
           <div className="p-5 shadow-lg w-fit h-fit rounded-md">
             <div className="p-3 rounded-md w-fit shadow mb-4 mx-auto">
-              <img src={security} alt="" width={200} height={200} />
+              <img src={access} alt="" width={200} height={200} />
             </div>
             <h2 className="text-[0.99em] text-center">Security Principles</h2>
             <div className="flex flex-1 justify-center items-center flex-grow gap-1 p-1">
@@ -63,7 +63,7 @@ const CoursesScroll = () => {
 
           <div className="p-5 shadow-lg w-fit h-fit  rounded-md">
             <div className="p-3 rounded-md w-fit shadow mb-4 mx-auto">
-              <img src={business} alt="" width={200} height={200} />
+              <img src={access} alt="" width={200} height={200} />
             </div>
             <h2 className="text-[0.99em] text-center">
               Business Continuity (BC), Disaster Recovery (DR) & Incident
@@ -106,7 +106,7 @@ const CoursesScroll = () => {
           </div>
           <div className="p-5 shadow-lg w-fit h-fit rounded-md">
             <div className="p-3 rounded-md w-fit shadow-md mb-4 mx-auto">
-              <img src={network} alt="" width={200} height={200} />
+              <img src={access} alt="" width={200} height={200} />
             </div>
             <h2 className="text-[0.99em] text-center">Network Security</h2>
             <div className="flex flex-1 justify-center items-center flex-grow gap-1 p-1">
@@ -125,7 +125,7 @@ const CoursesScroll = () => {
           </div>
           <div className="p-5 shadow-lg w-fit h-fit rounded-md">
             <div className="p-3 rounded-md w-fit shadow-md mb-4 mx-auto">
-              <img src={network} alt="" width={200} height={200} />
+              <img src={access} alt="" width={200} height={200} />
             </div>
             <h2 className="text-[0.99em] text-center">Security Operations</h2>
             <div className="flex flex-1 justify-center items-center flex-grow gap-1 p-1">

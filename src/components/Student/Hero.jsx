@@ -8,7 +8,7 @@ const Hero = () => {
         <p className='ml-10' style={{fontSize: '13px'}}>Student name</p>
       </div>
       <div className='mx-5'>
-         <button className='bg-transparent md:px-4 md:py-2 p-3  text-[10px] text-center text-white border border-orange-500 '>Explore</button>
+         <button className='bg-transparent md:px-5 md:py-3 p-3  text-[14px] text-center text-white border border-orange-500 '>Explore</button>
       </div>
     </div>
   )
